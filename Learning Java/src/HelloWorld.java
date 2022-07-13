@@ -1,7 +1,16 @@
 import java.util.Scanner;
 
 public class HelloWorld {
-    public static void main(String[] args) {
+    public static void announceTeaTime() {
+        System.out.println("Waiting for Tea Time...");
+        System.out.println("Type in random word and press Enter" +
+                " to start tea time");
+        Scanner input = new Scanner(System.in);
+        input.next();
+        System.out.println("It's tea time!");
+    }
+
+    public static void foo() {
         int studentAge = 15;
         double studentGPA = 3.45;
         String myFavoriteWord = "speaker";
@@ -42,12 +51,12 @@ public class HelloWorld {
         }
         boolean isCurrentSongOnRepeat = true;
         Scanner scanner = new Scanner(System.in);
-        while(isCurrentSongOnRepeat) {
+        while (isCurrentSongOnRepeat) {
             System.out.println("Playing current song");
             System.out.println("Would you like to take this song " +
                     "off of repeat? If so, answer yes");
             String answer = scanner.next();
-            if("yes".equals(answer)){
+            if ("yes".equals(answer)) {
                 isCurrentSongOnRepeat = false;
             }
         }
@@ -58,16 +67,28 @@ public class HelloWorld {
         String choiceOne = "One";
         String choiceTwo = "Two";
         String choiceThree = "Three";
-        String question = "Which of the following is the correct answer? " + choiceOne +", " + choiceTwo +", or " + choiceThree +"?";
+        String question = "Which of the following is the correct answer? " + choiceOne + ", " + choiceTwo + ", or " + choiceThree + "?";
         String correctAnswer = choiceTwo;
 
         System.out.println(question);
         Scanner scanner1 = new Scanner(System.in);
         String response = scanner1.next();
-        if(response.equals(correctAnswer)){
+        if (response.equals(correctAnswer)) {
             System.out.println("Congrats!");
         } else {
             System.out.println("Incorrect. Correct answer is " + correctAnswer + ".");
         }
+    }
+    public static void main(String[] args) {
+        System.out.println("Welcome to your new job");
+        announceTeaTime();
+
+        System.out.println("Write code");
+        System.out.println("Review code");
+        System.out.println("Learn stuff");
+
+        announceTeaTime();
+
+        System.out.println("Get promoted!");
     }
 }
