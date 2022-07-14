@@ -91,7 +91,10 @@ public class HelloWorld {
 
         System.out.println("Get promoted!");
     }
-    
+
+    public static void calculateTotalMealPrice(){
+        // foo
+    }
     public static void main(String[] args) {
 
 
