@@ -10,7 +10,7 @@ public class HelloWorld {
         System.out.println("It's tea time!");
     }
 
-    public static void foo() {
+    public static void practice() {
         int studentAge = 15;
         double studentGPA = 3.45;
         String myFavoriteWord = "speaker";
@@ -79,8 +79,8 @@ public class HelloWorld {
             System.out.println("Incorrect. Correct answer is " + correctAnswer + ".");
         }
     }
-    public static void main(String[] args) {
-        System.out.println("Welcome to your new job");
+
+    public static void teaTimePractice(){System.out.println("Welcome to your new job");
         announceTeaTime();
 
         System.out.println("Write code");
@@ -90,5 +90,10 @@ public class HelloWorld {
         announceTeaTime();
 
         System.out.println("Get promoted!");
+    }
+    
+    public static void main(String[] args) {
+
+
     }
 }
