@@ -1,3 +1,6 @@
 [submodule "java-data-structures-3001429"]
 	path = java-data-structures-3001429
 	url = https://github.com/efwoods/java-data-structures-3001429.git
+[submodule "data-structure-3001429"]
+	path = data-structure-3001429
+	url = https://github.com/efwoods/java-data-structures-3001429.git
