@@ -10,3 +10,6 @@
 [submodule "SpringBoot"]
 	path = SpringBoot
 	url = https://github.com/efwoods/SpringBoot.git
+[submodule "RESTful-Web-Service"]
+	path = RESTful-Web-Service
+	url = https://github.com/efwoods/RESTful-Web-Service.git
