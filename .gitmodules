@@ -16,3 +16,6 @@
 [submodule "RESTfulWebService"]
 	path = RESTfulWebService
 	url = https://github.com/efwoods/RESTfulWebService.git
+[submodule "SpringFundamentals"]
+	path = SpringFundamentals
+	url = https://github.com/efwoods/SpringFundamentals
