@@ -1,6 +1,6 @@
 package com.example.demo.services;
 
-import com.example.demo.json.JokeResponse;
+import com.example.demo.json.joke.JokeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;

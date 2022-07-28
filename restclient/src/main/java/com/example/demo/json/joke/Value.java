@@ -1,11 +1,11 @@
-package com.example.demo.json;
+package com.example.demo.json.joke;
 
 import java.util.List;
 
 public class Value {
     private int id;
     private String joke;
-    private List<String> categories;
+    List<String> categories;
 
     public int getId() {
         return id;
