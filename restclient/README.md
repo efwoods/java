@@ -1,6 +1,8 @@
 # Rest Client
 This client creates a service to call a joke endpoint and return data.
 
+The RestTemplateBuilder defines the service.
+
 The difference between a rest client and a web server is that the REST client does not have endpoint mappings to serve data. 
 
 A web server contains endpoint mappings that will serve responses when navigating or calling those mappings.
