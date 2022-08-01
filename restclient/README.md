@@ -14,3 +14,6 @@ The REST client will use a restTemplate to call an external web server that cont
 The REST client does not work unless it is pointed at a web server to return the data. 
 
 In this example repository, the REST client consists only of a service which implements a restTemplate that calls an external API endpoint to return jokes. 
+
+## Note 
+Make this its own repository.
