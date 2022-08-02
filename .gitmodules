@@ -19,3 +19,9 @@
 [submodule "SpringFundamentals"]
 	path = SpringFundamentals
 	url = https://github.com/efwoods/SpringFundamentals
+[submodule "apex-springboot-inventory"]
+	path = apex-springboot-inventory
+	url = https://githbu.com/efwoods/apex-springboot-inventory.git
+[submodule "JSOUP"]
+	path = JSOUP
+	url = https://github.com/efwoods/JSOUP.git
