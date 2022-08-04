@@ -25,3 +25,6 @@
 [submodule "JSOUP"]
 	path = JSOUP
 	url = https://github.com/efwoods/JSOUP.git
+[submodule "gs-messaging-stomp-websocket"]
+	path = gs-messaging-stomp-websocket
+	url = https://github.com/efwoods/gs-messaging-stomp-websocket.git
