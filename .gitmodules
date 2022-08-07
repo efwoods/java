@@ -28,3 +28,6 @@
 [submodule "gs-messaging-stomp-websocket"]
 	path = gs-messaging-stomp-websocket
 	url = https://github.com/efwoods/gs-messaging-stomp-websocket.git
+[submodule "java-sample-application"]
+	path = java-sample-application
+	url = https://github.com/efwoods/java-sample-application.git
